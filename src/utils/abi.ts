@@ -82,6 +82,19 @@ const abi = [
 	},
 	{
 		"inputs": [],
+		"name": "getOwner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
 		"name": "getParticipants",
 		"outputs": [
 			{
